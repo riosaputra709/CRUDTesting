@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\riosa\\source\\repos\\AXATES\\APICRUDTESTING\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{27EEFB65-ED1E-49A8-977D-941DEE24B0CB}|APICRUDTESTING\\APICRUDTESTING.csproj|c:\\users\\riosa\\source\\repos\\axates\\apicrudtesting\\apicrudtesting\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27EEFB65-ED1E-49A8-977D-941DEE24B0CB}|APICRUDTESTING\\APICRUDTESTING.csproj|solutionrelative:apicrudtesting\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{27EEFB65-ED1E-49A8-977D-941DEE24B0CB}|APICRUDTESTING\\APICRUDTESTING.csproj|c:\\users\\riosa\\source\\repos\\axates\\apicrudtesting\\apicrudtesting\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{27EEFB65-ED1E-49A8-977D-941DEE24B0CB}|APICRUDTESTING\\APICRUDTESTING.csproj|solutionrelative:apicrudtesting\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -31,10 +35,6 @@
       "RelativeMoniker": "D:0:0:{27EEFB65-ED1E-49A8-977D-941DEE24B0CB}|APICRUDTESTING\\APICRUDTESTING.csproj|solutionrelative:apicrudtesting\\services\\productservices\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{27EEFB65-ED1E-49A8-977D-941DEE24B0CB}|APICRUDTESTING\\APICRUDTESTING.csproj|c:\\users\\riosa\\source\\repos\\axates\\apicrudtesting\\apicrudtesting\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{27EEFB65-ED1E-49A8-977D-941DEE24B0CB}|APICRUDTESTING\\APICRUDTESTING.csproj|solutionrelative:apicrudtesting\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{27EEFB65-ED1E-49A8-977D-941DEE24B0CB}|APICRUDTESTING\\APICRUDTESTING.csproj|c:\\users\\riosa\\source\\repos\\axates\\apicrudtesting\\apicrudtesting\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{27EEFB65-ED1E-49A8-977D-941DEE24B0CB}|APICRUDTESTING\\APICRUDTESTING.csproj|solutionrelative:apicrudtesting\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -46,11 +46,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 0,
               "Title": "DataContext.cs",
               "DocumentMoniker": "C:\\Users\\riosa\\source\\repos\\AXATES\\APICRUDTESTING\\APICRUDTESTING\\Data\\DataContext.cs",
               "RelativeDocumentMoniker": "APICRUDTESTING\\Data\\DataContext.cs",
@@ -73,18 +73,17 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-24T18:37:06.623Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\Users\\riosa\\source\\repos\\AXATES\\APICRUDTESTING\\APICRUDTESTING\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "APICRUDTESTING\\Controllers\\AuthController.cs",
               "ToolTip": "C:\\Users\\riosa\\source\\repos\\AXATES\\APICRUDTESTING\\APICRUDTESTING\\Controllers\\AuthController.cs",
               "RelativeToolTip": "APICRUDTESTING\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAgwDcAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAgwBUAAABVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-24T19:05:44.987Z",
               "IsPinned": true,
@@ -92,7 +91,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "IUserService.cs",
               "DocumentMoniker": "C:\\Users\\riosa\\source\\repos\\AXATES\\APICRUDTESTING\\APICRUDTESTING\\Services\\UserServices\\IUserService.cs",
               "RelativeDocumentMoniker": "APICRUDTESTING\\Services\\UserServices\\IUserService.cs",
@@ -101,12 +100,11 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-24T19:15:16.663Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "UserService.cs",
               "DocumentMoniker": "C:\\Users\\riosa\\source\\repos\\AXATES\\APICRUDTESTING\\APICRUDTESTING\\Services\\UserServices\\UserService.cs",
               "RelativeDocumentMoniker": "APICRUDTESTING\\Services\\UserServices\\UserService.cs",
@@ -115,12 +113,11 @@
               "ViewState": "AgIAAAgAAAAAAAAAAAAAwBAAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-24T19:17:08.498Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\riosa\\source\\repos\\AXATES\\APICRUDTESTING\\APICRUDTESTING\\Program.cs",
               "RelativeDocumentMoniker": "APICRUDTESTING\\Program.cs",
@@ -128,12 +125,11 @@
               "RelativeToolTip": "APICRUDTESTING\\Program.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAAAB0AAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-24T19:54:20.709Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-24T19:54:20.709Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "ManagementProductController.cs",
               "DocumentMoniker": "C:\\Users\\riosa\\source\\repos\\AXATES\\APICRUDTESTING\\APICRUDTESTING\\Controllers\\ManagementProductController.cs",
               "RelativeDocumentMoniker": "APICRUDTESTING\\Controllers\\ManagementProductController.cs",
@@ -141,12 +137,11 @@
               "RelativeToolTip": "APICRUDTESTING\\Controllers\\ManagementProductController.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-24T19:48:19.646Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-24T19:48:19.646Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "ProductService.cs",
               "DocumentMoniker": "C:\\Users\\riosa\\source\\repos\\AXATES\\APICRUDTESTING\\APICRUDTESTING\\Services\\ProductServices\\ProductService.cs",
               "RelativeDocumentMoniker": "APICRUDTESTING\\Services\\ProductServices\\ProductService.cs",
@@ -154,12 +149,11 @@
               "RelativeToolTip": "APICRUDTESTING\\Services\\ProductServices\\ProductService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAD0AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-24T19:16:44.788Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-24T19:16:44.788Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "IProductService.cs",
               "DocumentMoniker": "C:\\Users\\riosa\\source\\repos\\AXATES\\APICRUDTESTING\\APICRUDTESTING\\Services\\ProductServices\\IProductService.cs",
               "RelativeDocumentMoniker": "APICRUDTESTING\\Services\\ProductServices\\IProductService.cs",
@@ -167,8 +161,7 @@
               "RelativeToolTip": "APICRUDTESTING\\Services\\ProductServices\\IProductService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-24T19:16:27.054Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-24T19:16:27.054Z"
             }
           ]
         }
