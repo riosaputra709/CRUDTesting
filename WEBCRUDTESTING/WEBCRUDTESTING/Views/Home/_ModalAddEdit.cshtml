@@ -1,0 +1,76 @@
+﻿@using System;
+
+@{
+
+}
+
+
+<div class="modal fade" id="modalAddEdit" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+    <div class="modal-dialog modal-md">
+        <div class="modal-content">
+            <!-- Modal Header -->
+            <div class="modal-header">
+                <h4 class="modal-title">Add/Edit Product</h4>
+                <br />
+            </div>
+
+            <!-- Modal Body -->
+            <div class="modal-body">
+                <form role="form" class="form-horizontal" id="formAddEdit">
+                    <input type="text" name="" id="txtAddEditProductId" value="" data-detail="" inert hidden />
+
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-6 col-md-12">
+                            <div class="form-group form-group-xs">
+                                <div class="form-group form-group-xs">
+                                    <label class="col-xs-4 col-sm-3 col-md-4 control-label text-muted">Name</label>
+                                    <div class="col-xs-8 col-sm-9 col-md-8">
+                                        <div class="input-group input-group-xs">
+                                            <input class="form-control " id="txtAddEditProductName" type="text" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-6 col-md-12">
+                            <div class="form-group form-group-xs">
+                                <div class="form-group form-group-xs">
+                                    <label class="col-xs-4 col-sm-3 col-md-4 control-label text-muted">Description</label>
+                                    <div class="col-xs-8 col-sm-9 col-md-8">
+                                        <div class="input-group input-group-xs">
+                                            <input class="form-control " id="txtAddEditProductdescription" type="text" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-6 col-md-12">
+                            <div class="form-group form-group-xs">
+                                <div class="form-group form-group-xs">
+                                    <label class="col-xs-4 col-sm-3 col-md-4 control-label text-muted">Price</label>
+                                    <div class="col-xs-8 col-sm-9 col-md-8">
+                                        <div class="input-group input-group-xs">
+                                            <input class="form-control " id="txtAddEditProductPrice" type="number" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+            <!-- Modal Footer -->
+            <div class="modal-footer">
+                <div class="col-xs-12 text-right">
+                    <button class="btn btn-xs btn-primary" id="btnSave">Save</button>
+                    <button type="button" class="btn btn-xs btn-danger" id="btnCancel" data-bs-dismiss="modal">Cancel</button>
+                </div>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
