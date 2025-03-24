@@ -1,0 +1,6 @@
+@APICRUDTESTING_HostAddress = http://localhost:5213
+
+GET {{APICRUDTESTING_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
