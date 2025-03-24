@@ -12,6 +12,7 @@ namespace WEBCRUDTESTING.Controllers
     public class HomeController : Controller
     {
         private readonly IHttpClientFactory _httpClientFactory;
+        private readonly string _apiUrl = "https://localhost:7265/api/ManagementProduct/";
 
         public HomeController(IHttpClientFactory httpClientFactory)
         {
@@ -20,6 +21,14 @@ namespace WEBCRUDTESTING.Controllers
 
         public async Task<IActionResult> Index()
         {
+            var token = HttpContext.Session.GetString("Token");
+
+            if (string.IsNullOrEmpty(token))
+            {
+                // Token tidak ditemukan, redirect ke login
+                return RedirectToAction("Index", "Login");
+            }
+
             await doSearch(); 
             return View();
         }
@@ -31,11 +40,11 @@ namespace WEBCRUDTESTING.Controllers
 
             if (keyword == null)
             {
-                response = await client.GetAsync("https://localhost:7265/api/ManagementProduct/AllProduct");
+                response = await client.GetAsync(_apiUrl + "AllProduct");
             }
             else
             {
-                response = await client.GetAsync("https://localhost:7265/api/ManagementProduct/AllProduct?name=" + keyword);
+                response = await client.GetAsync(_apiUrl + "AllProduct?name=" + keyword);
             }
             
 

@@ -1,5 +1,8 @@
-﻿@{
+﻿@model WEBCRUDTESTING.Models.LoginModel
+@{
     Layout = null;
+
+    string pesanError = (string)ViewData["pesanError"];
 }
 
 <!DOCTYPE html>
@@ -13,17 +16,17 @@
 
 </head>
 <body>
-    <form asp-controller="LoginAuth" asp-action="Login" method="post">
+    <form asp-controller="Login" asp-action="Login" method="post">
         <div class="form-control w-50 mx-auto mt-4">
             <!-- Email input -->
             <div class="form-outline mb-4">
-                <input type="text" id="username" class="form-control" />
+                <input type="text" id="username" asp-for="username" class="form-control" />
                 <label class="form-label" for="username">Username</label>
             </div>
 
             <!-- Password input -->
             <div class="form-outline mb-4">
-                <input type="password" id="password" class="form-control" />
+                <input type="password" id="password" asp-for="password" class="form-control" />
                 <label class="form-label" for="password">Password</label>
             </div>
 
@@ -37,6 +40,13 @@
 
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            if ('@pesanError') {
+                alert('@pesanError');   
+            };
+        })
+    </script>
 
 </body>
 </html>

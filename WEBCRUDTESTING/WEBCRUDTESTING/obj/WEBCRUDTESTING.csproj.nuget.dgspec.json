@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\riosa\\source\\repos\\PROGRAM API\\WEBCRUDTESTING\\WEBCRUDTESTING\\WEBCRUDTESTING.csproj": {}
+    "C:\\Users\\riosa\\source\\repos\\AXATES\\WEBCRUDTESTING\\WEBCRUDTESTING\\WEBCRUDTESTING.csproj": {}
   },
   "projects": {
-    "C:\\Users\\riosa\\source\\repos\\PROGRAM API\\WEBCRUDTESTING\\WEBCRUDTESTING\\WEBCRUDTESTING.csproj": {
+    "C:\\Users\\riosa\\source\\repos\\AXATES\\WEBCRUDTESTING\\WEBCRUDTESTING\\WEBCRUDTESTING.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\riosa\\source\\repos\\PROGRAM API\\WEBCRUDTESTING\\WEBCRUDTESTING\\WEBCRUDTESTING.csproj",
+        "projectUniqueName": "C:\\Users\\riosa\\source\\repos\\AXATES\\WEBCRUDTESTING\\WEBCRUDTESTING\\WEBCRUDTESTING.csproj",
         "projectName": "WEBCRUDTESTING",
-        "projectPath": "C:\\Users\\riosa\\source\\repos\\PROGRAM API\\WEBCRUDTESTING\\WEBCRUDTESTING\\WEBCRUDTESTING.csproj",
+        "projectPath": "C:\\Users\\riosa\\source\\repos\\AXATES\\WEBCRUDTESTING\\WEBCRUDTESTING\\WEBCRUDTESTING.csproj",
         "packagesPath": "C:\\Users\\riosa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\riosa\\source\\repos\\PROGRAM API\\WEBCRUDTESTING\\WEBCRUDTESTING\\obj\\",
+        "outputPath": "C:\\Users\\riosa\\source\\repos\\AXATES\\WEBCRUDTESTING\\WEBCRUDTESTING\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
